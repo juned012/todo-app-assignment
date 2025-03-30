@@ -1,5 +1,5 @@
 import "./index.css";
-import { ClipboardList } from "lucide-react";
+import { ClipboardList, FilePenLine, Trash2, Check } from "lucide-react";
 
 const App = () => {
   return (
@@ -34,9 +34,15 @@ const App = () => {
             <small className="task-date">Added on: Date</small>
           </div>
           <div className="task-buttons">
-            <button className="btn complete-btn">Complete</button>
-            <button className="btn edit-btn">Edit</button>
-            <button className="btn delete-btn">Delete</button>
+            <button className="complete-btn">
+              <Check />
+            </button>
+            <button className="edit-btn">
+              <FilePenLine />
+            </button>
+            <button className="delete-btn">
+              <Trash2 />
+            </button>
           </div>
         </div>
       </div>
