@@ -1,0 +1,134 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+  }
+  
+  .app-container {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 450px;
+  }
+  
+  .app-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff9800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .task-input,
+  .task-textarea {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: #333;
+    color: white;
+  }
+  
+  .task-input::placeholder,
+  .task-textarea::placeholder {
+    color: #bbb;
+  }
+  
+  .btn {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn {
+    background: #ff9800;
+    color: white;
+  }
+  
+  .submit-btn:hover {
+    background: #e68900;
+  }
+  
+  .tasks-container {
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    background: #252525;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .task-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffcc80;
+  }
+  
+  .task-desc {
+    font-size: 14px;
+    color: #ddd;
+  }
+  
+  .task-date {
+    font-size: 12px;
+    color: #bbb;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .complete-btn {
+    background: #4caf50;
+    color: white;
+  }
+  
+  .complete-btn:hover {
+    background: #3d8b40;
+  }
+  
+  .edit-btn {
+    background: #ffeb3b;
+    color: black;
+  }
+  
+  .edit-btn:hover {
+    background: #e6d32a;
+  }
+  
+  .delete-btn {
+    background: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background: #d32f2f;
+  }
+  
